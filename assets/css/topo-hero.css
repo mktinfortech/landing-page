@@ -1,0 +1,57 @@
+
+
+.display-flex{
+    display: flex;  
+}
+
+section.topo-hero{
+    padding: 40px 4%;
+    border: 1px solid white;
+    margin: 5px auto;
+}
+section.topo-hero .display-flex{
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.topo-hero h2{
+    font-size: 45px;
+    color: white;
+    line-height: 35px;
+    
+}
+.topo-hero .txt-left p{
+    color: white;
+    margin: 35px 0;
+}
+.display-flex .btn-contato button{
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(128, 255, 0);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.display-flex .btn-contato button:hover{
+    transform: scale(1.05);
+    transition: .5s;
+    box-shadow: 0px 0px 15px rgba(128, 255, 0, 0.575);;
+}
+/*Animando Imagem c KeyFrames*/
+
+@keyframes flutuarImagem{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+.img-Right img{
+    position: relative;
+    animation: flutuarImagem 2s ease-in-out infinite alternate;
+    width: 290px;
+    height: 390px;
+    border-radius: 120px;
+}

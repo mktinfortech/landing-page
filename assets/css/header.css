@@ -1,0 +1,44 @@
+
+header{
+    padding: 40px 4%;
+    border: 1px solid white;
+}
+header .logo a{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.404);
+    text-decoration: none;
+    display: inline-block;
+}
+header .logo a:hover{
+    color: rgb(128, 255, 0);
+    transform: scale(1.35);
+    transition: .8s;
+}
+
+
+header > .interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu-desktop a{
+    color: rgba(255, 255, 255, 0.404);
+    text-decoration: none;
+    display: inline-block;
+}
+
+header .menu-desktop a:hover{
+    color: rgb(128, 255, 0);
+    transform: scale(1.35);
+    transition: .8s;
+}
+
+header .menu-desktop ul li{
+   display: inline-block;
+   padding: 0 40px;
+}
+
+
